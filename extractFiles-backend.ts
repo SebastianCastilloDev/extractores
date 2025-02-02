@@ -11,8 +11,17 @@ const ignoredFiles = [
   'extractFiles.ts',
   'backend.txt',
   'codigo.txt',
+  'LICENSE.txt',
 ];
-const ignoredExtensions = ['.png', '.jpg', '.jpeg', '.svg', '.avif', '.webp'];
+const ignoredExtensions = [
+  '.png',
+  '.jpg',
+  '.jpeg',
+  '.svg',
+  '.avif',
+  '.webp',
+  '. ttf',
+];
 const outputFilePath = path.join(__dirname, 'backend.txt');
 
 // Crear o vaciar el archivo de salida
